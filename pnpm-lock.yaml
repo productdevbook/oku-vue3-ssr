@@ -33,7 +33,7 @@ specifiers:
   pinia: 2.0.15
   postcss: 8.4.14
   sirv: 2.0.2
-  tailwindcss: 3.1.5
+  tailwindcss: 3.1.6
   ts-node: 10.8.2
   typescript: 4.7.4
   universal-cookie: 4.0.4
@@ -86,8 +86,8 @@ dependencies:
 
 devDependencies:
   '@antfu/eslint-config': 0.25.2_4x5o4skxv6sl53vpwefgt23khm
-  '@tailwindcss/forms': 0.5.2_tailwindcss@3.1.5
-  '@tailwindcss/typography': 0.5.3_tailwindcss@3.1.5
+  '@tailwindcss/forms': 0.5.2_tailwindcss@3.1.6
+  '@tailwindcss/typography': 0.5.3_tailwindcss@3.1.6
   '@types/apollo-upload-client': 17.0.1_graphql-ws@5.9.1
   '@types/compression': 1.7.2
   '@types/crypto-js': 4.1.1
@@ -98,7 +98,7 @@ devDependencies:
   eslint: 8.19.0
   naive-ui: 2.31.0_vue@3.2.37
   postcss: 8.4.14
-  tailwindcss: 3.1.5_ts-node@10.8.2
+  tailwindcss: 3.1.6_ts-node@10.8.2
   typescript: 4.7.4
   vite: 2.9.14
   vite-plugin-pwa: 0.12.3_vite@2.9.14
@@ -2224,16 +2224,16 @@ packages:
       string.prototype.matchall: 4.0.7
     dev: true
 
-  /@tailwindcss/forms/0.5.2_tailwindcss@3.1.5:
+  /@tailwindcss/forms/0.5.2_tailwindcss@3.1.6:
     resolution: {integrity: sha512-pSrFeJB6Bg1Mrg9CdQW3+hqZXAKsBrSG9MAfFLKy1pVA4Mb4W7C0k7mEhlmS2Dfo/otxrQOET7NJiJ9RrS563w==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
     dependencies:
       mini-svg-data-uri: 1.4.4
-      tailwindcss: 3.1.5_ts-node@10.8.2
+      tailwindcss: 3.1.6_ts-node@10.8.2
     dev: true
 
-  /@tailwindcss/typography/0.5.3_tailwindcss@3.1.5:
+  /@tailwindcss/typography/0.5.3_tailwindcss@3.1.6:
     resolution: {integrity: sha512-Cn4MufL/xiTh2Npw26xiL7gP3GFkJH+zWM8DAm/NNEr4gF5N9D6gY9zMNNQUu27m8g0IIk665BUuoU92wVUBkA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
@@ -2241,7 +2241,7 @@ packages:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
-      tailwindcss: 3.1.5_ts-node@10.8.2
+      tailwindcss: 3.1.6_ts-node@10.8.2
     dev: true
 
   /@tsconfig/node10/1.0.9:
@@ -5876,9 +5876,9 @@ packages:
       postcss: 8.4.14
     dev: true
 
-  /postcss-load-config/4.0.1_i7duc3lt6p42geuj2nwruihc6u:
-    resolution: {integrity: sha512-vEJIc8RdiBRu3oRAI0ymerOn+7rPuMvRXslTvZUKZonDHFIczxztIyJ1urxM1x9JXEikvpWWTUUqal5j/8QgvA==}
-    engines: {node: '>= 14'}
+  /postcss-load-config/3.1.4_i7duc3lt6p42geuj2nwruihc6u:
+    resolution: {integrity: sha512-6DiM4E7v4coTE4uzA8U//WhtPwyhiim3eyjEMFCnUpzbrkK9wJHgKDT2mR+HbtSrd/NubVaYTOpSpjUl8NQeRg==}
+    engines: {node: '>= 10'}
     peerDependencies:
       postcss: '>=8.0.9'
       ts-node: '>=9.0.0'
@@ -5891,7 +5891,7 @@ packages:
       lilconfig: 2.0.6
       postcss: 8.4.14
       ts-node: 10.8.2_typescript@4.7.4
-      yaml: 2.1.1
+      yaml: 1.10.2
     dev: true
 
   /postcss-nested/5.0.6_postcss@8.4.14:
@@ -6521,8 +6521,8 @@ packages:
       rename-overwrite: 4.0.2
     dev: false
 
-  /tailwindcss/3.1.5_ts-node@10.8.2:
-    resolution: {integrity: sha512-bC/2dy3dGPqxMWAqFSRgQxVCfmO/31ZbeEp8s9DMDh4zgPZ5WW1gxRJkbBkXcTUIzaSUdhWrcsrSOe32ccgB4w==}
+  /tailwindcss/3.1.6_ts-node@10.8.2:
+    resolution: {integrity: sha512-7skAOY56erZAFQssT1xkpk+kWt2NrO45kORlxFPXUt3CiGsVPhH1smuH5XoDH6sGPXLyBv+zgCKA2HWBsgCytg==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
@@ -6542,7 +6542,7 @@ packages:
       postcss: 8.4.14
       postcss-import: 14.1.0_postcss@8.4.14
       postcss-js: 4.0.0_postcss@8.4.14
-      postcss-load-config: 4.0.1_i7duc3lt6p42geuj2nwruihc6u
+      postcss-load-config: 3.1.4_i7duc3lt6p42geuj2nwruihc6u
       postcss-nested: 5.0.6_postcss@8.4.14
       postcss-selector-parser: 6.0.10
       postcss-value-parser: 4.2.0
@@ -7508,6 +7508,11 @@ packages:
       eslint-visitor-keys: 3.3.0
       lodash: 4.17.21
       yaml: 2.1.1
+    dev: true
+
+  /yaml/1.10.2:
+    resolution: {integrity: sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==}
+    engines: {node: '>= 6'}
     dev: true
 
   /yaml/2.1.1:
