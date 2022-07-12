@@ -18,7 +18,7 @@
     "@popperjs/core": "2.11.5",
     "@vee-validate/i18n": "4.5.11",
     "@vue/apollo-composable": "4.0.0-alpha.18",
-    "@vueuse/core": "8.9.1",
+    "@vueuse/core": "8.9.2",
     "@vueuse/head": "0.7.6",
     "@vueuse/integrations": "8.9.1",
     "apollo-upload-client": "17.0.0",
