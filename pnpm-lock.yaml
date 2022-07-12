@@ -30,7 +30,7 @@ specifiers:
   graphql-ws: 5.9.1
   naive-ui: 2.31.0
   nprogress: 0.2.0
-  pinia: 2.0.15
+  pinia: 2.0.16
   postcss: 8.4.14
   sirv: 2.0.2
   tailwindcss: 3.1.5
@@ -69,7 +69,7 @@ dependencies:
   graphql: 16.5.0
   graphql-ws: 5.9.1_graphql@16.5.0
   nprogress: 0.2.0
-  pinia: 2.0.15_j6bzmzd4ujpabbp5objtwxyjp4
+  pinia: 2.0.16_j6bzmzd4ujpabbp5objtwxyjp4
   sirv: 2.0.2
   ts-node: 10.8.2_typescript@4.7.4
   universal-cookie: 4.0.4
@@ -5823,8 +5823,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /pinia/2.0.15_j6bzmzd4ujpabbp5objtwxyjp4:
-    resolution: {integrity: sha512-qkIvXdGWMbnc3UG3l8rn9SV4nE2H4I2R/exZcdn/0pDzjaKQmMUsBXlIurfKu62VJsjETkqss46NP/c88NnjYQ==}
+  /pinia/2.0.16_j6bzmzd4ujpabbp5objtwxyjp4:
+    resolution: {integrity: sha512-9/LMVO+/epny1NBfC77vnps4g3JRezxhhoF1xLUk8mZkUIxVnwfEAIRiAX8mYBTD/KCwZqnDMqXc8w3eU0FQGg==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
