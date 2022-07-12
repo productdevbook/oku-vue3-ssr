@@ -20,7 +20,7 @@
     "@vue/apollo-composable": "4.0.0-alpha.18",
     "@vueuse/core": "8.9.1",
     "@vueuse/head": "0.7.6",
-    "@vueuse/integrations": "8.9.1",
+    "@vueuse/integrations": "8.9.2",
     "apollo-upload-client": "17.0.0",
     "compression": "1.7.4",
     "cookie-parser": "^1.4.6",
