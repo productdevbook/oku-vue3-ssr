@@ -2,7 +2,7 @@
   "name": "oku-vue3-ssr",
   "private": true,
   "version": "0.0.0",
-  "packageManager": "pnpm@7.5.0",
+  "packageManager": "pnpm@7.5.1",
   "scripts": {
     "dev": "npm run server",
     "prod": "npm run build && npm run server:prod",
