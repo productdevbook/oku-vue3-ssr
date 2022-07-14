@@ -1,9 +1,9 @@
 import { renderToString } from '@vue/server-renderer'
-import { dangerouslySkipEscape, escapeInject } from 'vite-plugin-ssr'
-import type { PageContextBuiltIn } from 'vite-plugin-ssr'
+import { escapeInject, dangerouslySkipEscape } from 'vite-plugin-ssr'
 import { createApp } from './app'
+import logoUrl from './logo.svg'
 import type { PageContext } from './types'
-import logoUrl from '#root/public/logo-dark.png'
+import type { PageContextBuiltIn } from 'vite-plugin-ssr'
 
 export { render }
 // See https://vite-plugin-ssr.com/data-fetching
@@ -16,9 +16,7 @@ async function render(pageContext: PageContextBuiltIn & PageContext) {
   // See https://vite-plugin-ssr.com/head
   const { documentProps } = pageContext
   const title = (documentProps && documentProps.title) || 'Vite SSR app'
-  const desc
-    = (documentProps && documentProps.description)
-    || 'App using Vite + vite-plugin-ssr'
+  const desc = (documentProps && documentProps.description) || 'App using Vite + vite-plugin-ssr'
 
   const documentHtml = escapeInject`<!DOCTYPE html>
     <html lang="en">

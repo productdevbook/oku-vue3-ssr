@@ -1,9 +1,0 @@
-{
-  "extends": "@oku/tsconfig/vue.json",
-  "compilerOptions": {
-    "composite": true,
-    "module": "esnext",
-    "moduleResolution": "node"
-  },
-  "include": ["vite.config.ts"]
-}
