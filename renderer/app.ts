@@ -2,6 +2,7 @@ import { createSSRApp, defineComponent, h } from 'vue'
 import PageShell from './PageShell.vue'
 import { setPageContext } from './usePageContext'
 import type { PageContext } from './types'
+import './index.css'
 
 export { createApp }
 
