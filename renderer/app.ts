@@ -11,7 +11,7 @@ function createApp(pageContext: PageContext) {
   const PageWithLayout = defineComponent({
     render() {
       return h(
-        PageShell,
+        {},
         {},
         {
           default() {

@@ -8,11 +8,13 @@ import { PageContext } from './types'
 export { usePageContext }
 export { setPageContext }
 
+// eslint-disable-next-line symbol-description
 const key: InjectionKey<PageContext> = Symbol()
 
 function usePageContext() {
   const pageContext = inject(key)
-  if (!pageContext) throw new Error('setPageContext() not called in parent')
+  if (!pageContext)
+    throw new Error('setPageContext() not called in parent')
   return pageContext
 }
 
