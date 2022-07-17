@@ -13,9 +13,12 @@ async function startServer() {
   app.use(compression())
 
   if (isProduction) {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
     const sirv = require('sirv')
     app.use(sirv(`${root}/dist/client`))
-  } else {
+  }
+  else {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
     const vite = require('vite')
     const viteDevMiddleware = (
       await vite.createServer({
@@ -33,7 +36,8 @@ async function startServer() {
     }
     const pageContext = await renderPage(pageContextInit)
     const { httpResponse } = pageContext
-    if (!httpResponse) return next()
+    if (!httpResponse)
+      return next()
     const { body, statusCode, contentType } = httpResponse
     res.status(statusCode).type(contentType).send(body)
   })
