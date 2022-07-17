@@ -13,11 +13,10 @@ async function startServer() {
   app.use(compression())
 
   if (isProduction) {
-    const sirv = (await import ('sirv')).default
+    const sirv = require('sirv')
     app.use(sirv(`${root}/dist/client`))
-  }
-  else {
-    const vite = (await import ('vite')).default
+  } else {
+    const vite = require('vite')
     const viteDevMiddleware = (
       await vite.createServer({
         root,
@@ -34,8 +33,7 @@ async function startServer() {
     }
     const pageContext = await renderPage(pageContextInit)
     const { httpResponse } = pageContext
-    if (!httpResponse)
-      return next()
+    if (!httpResponse) return next()
     const { body, statusCode, contentType } = httpResponse
     res.status(statusCode).type(contentType).send(body)
   })
